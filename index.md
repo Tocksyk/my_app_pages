@@ -1,14 +1,11 @@
-# Sameed Ansari
-
-### Fullstack Developer
-
-#### App Links
-
+<h1>Fullstack Developer</h1>
+<h3>App Links</h3>
 1. <a href="https://splendorous-melba-f67da0.netlify.app/">Music App</a>
 
-### Technologies worked on :
-
-1. Frontend - ReactJS, VueJS
-2. Backend - NodeJS
-3. Database - MongoDB, MySQL, Postgres, redis, ELK stack
-4. Cloud - AWS technologies
+<h2>Technologies worked on :</h3>
+<ol>
+    <li>Frontend - ReactJS, VueJS</li>
+    <li>Backend - NodeJS</li>
+    <li>Database - MongoDB, MySQL, Postgres, redis, ELK stack</li>
+    <li>Cloud - AWS technologies</li>
+</ol>
