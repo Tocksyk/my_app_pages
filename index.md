@@ -1,5 +1,3 @@
-# Sameed Ansari
-
 <h1>Fullstack Developer</h1>
 <h3>App Links</h3>
 1. <a href="https://splendorous-melba-f67da0.netlify.app/">Music App</a>
