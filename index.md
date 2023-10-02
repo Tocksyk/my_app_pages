@@ -4,7 +4,7 @@
 
 #### App Links
 
-1. [Music App](https://splendorous-melba-f67da0.netlify.app/)
+1. <a href="https://splendorous-melba-f67da0.netlify.app/">Music App</a>
 
 ### Technologies worked on :
 
