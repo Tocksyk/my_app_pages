@@ -1,9 +1,8 @@
 # Sameed Ansari
 
-#### Fullstack Developer
+### Fullstack Developer
 
-Github Link :
-App Link :
+Music App : https://splendorous-melba-f67da0.netlify.app/
 
 ### Technologies worked on :
 
