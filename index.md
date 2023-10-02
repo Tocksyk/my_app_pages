@@ -1,5 +1,5 @@
 <style>
-  .footer {
+  .site-footer {
     display: none;
   }
 </style>
