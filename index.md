@@ -2,7 +2,9 @@
 
 ### Fullstack Developer
 
-Music App : https://splendorous-melba-f67da0.netlify.app/
+#### App Links
+
+1. [Music App](https://splendorous-melba-f67da0.netlify.app/)
 
 ### Technologies worked on :
 
