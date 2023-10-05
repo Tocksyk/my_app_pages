@@ -40,7 +40,7 @@ function App(params) {
                   FrontEnd
                 </p>
                 <div className="md:grid md:grid-cols-4 md:gap-1 grid grid-cols-2 gap-2">
-                  <CreateSkills data={frontendData} folderPath={"frontend"} />
+                  <CreateSkills data={frontendData} folderPath={"public_frontend"} />
                 </div>
               </div>
               <div className="md:flex md:flex-row md:items-center md:m-2 md:h-2/6 flex flex-col items-center my-7">
@@ -48,7 +48,7 @@ function App(params) {
                   Backend
                 </p>
                 <div className="md:grid md:grid-cols-4 md:gap-1 grid grid-cols-2 gap-2">
-                  <CreateSkills data={backendData} folderPath={"backend"} />
+                  <CreateSkills data={backendData} folderPath={"public_backend"} />
                 </div>
               </div>
               <div className="md:flex md:flex-row md:items-center md:m-2 md:h-2/6 flex flex-col items-center my-7">
@@ -56,7 +56,7 @@ function App(params) {
                   Cloud
                 </p>
                 <div className="md:grid md:grid-cols-4 md:gap-1 grid grid-cols-2 gap-2">
-                  <CreateSkills data={cloudData} folderPath={"cloud"} />
+                  <CreateSkills data={cloudData} folderPath={"public_cloud"} />
                 </div>
               </div>
             </div>
