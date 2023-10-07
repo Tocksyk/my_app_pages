@@ -1,3 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Find Named colours here to use: https://en.wikipedia.org/wiki/Web_colors */
+:root {
+    --body-bg: sienna;
+    --steam-color: rgb(184, 225, 225);
+    --coffee-color: rgb(77, 7, 97);
+    --steam-animation: steaming 2500ms ease infinite;
+    --steam-height: -10px;
+    --steam-start-height: 8px;
+    --steam1-delay: 100ms;
+    --steam2-delay: 250ms;
+    --steam3-delay: 50ms;
+  
+  }
+  
+  .steam {
+    fill: var(--steam-color);
+    transform: translateY(var(--steam-start-height));
+    animation: var(--steam-animation);
+  }
+  
+  .steam1 {
+    animation-delay: var(--steam1-delay);
+  }
+  .steam2 {
+    animation-delay: var(--steam2-delay);
+  }
+  .steam3 {
+    animation-delay: var(--steam3-delay);
+  }
+  
+  .coffee-cup {
+    fill: var(--coffee-color);
+  }
+  
+  
+  @keyframes steaming {
+    50% {  
+      transform: translateY(var(--steam-height));
+    }
+  }
+  
+  /* Base Styles */
+  .svg-wrapper {
+    width: 70px;
+    height: 70px;
+  }
