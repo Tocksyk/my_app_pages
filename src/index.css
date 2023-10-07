@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
+html { height: 100% }
 /* Find Named colours here to use: https://en.wikipedia.org/wiki/Web_colors */
 :root {
     --body-bg: sienna;

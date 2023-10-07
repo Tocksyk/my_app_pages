@@ -20,7 +20,7 @@ const cloudData = ["AWS DynamoDB", "AWS S3", "AWS EC2", "AWS Lambda", "AWS SQS",
 function App(params) {
   // const bg = "bg-gradient-to-r from-teal-600  to-teal-700";
   return (
-    <div className="md:h-screen h-full md:flex md:justify-center md:items-center bg-cover bg-hom">
+    <div className="md:h-screen h-full md:flex md:justify-center md:items-center md:bg-cover bg-lime-bg bg-cover bg-bottom">
       <div className="md:rounded-3xl md:border-2 md:border-black md:w-4/6 md:h-4/5 md:shadow-2xl md:shadow-slate-800 bg-slate-300 bg-opacity-30">
         <div className="title md:p-3 md:flex md:flex-col md:items-center flex flex-col items-center">
           <div className="md:text-black md:text-5xl md:font-bold md:hover:scale-105 hover:cursor-pointer text-5xl text-black font-bold p-3 font-pt flex items-end">
@@ -48,7 +48,7 @@ function App(params) {
             </div>
             <div className="skills-sections w-full">
               <div className="md:flex md:flex-row md:items-center md:m-2 md:h-2/6 flex flex-col items-center my-7">
-                <p className="md:text-black md:hover:bg-lime-200 md:mr-3 md:p-3 md:shadow-xl md:shadow-black md:bg-slate-200 md:h-full md:flex md:items-center md:rounded-r-xl md:w-28 text-xl font-bold italic text-black mb-2 font-pt md:hover:scale-105 place-content-center md:bg-opacity-70">
+                <p className="md:text-black md:hover:bg-lime-200 md:mr-3 md:p-3 md:shadow-xl md:shadow-black md:bg-slate-200 md:h-full md:flex md:items-center md:rounded-r-xl md:w-28 text-xl font-bold italic text-black mb-2 font-pt md:hover:scale-105 place-content-center md:bg-opacity-30">
                   FrontEnd
                 </p>
                 <div className="md:grid md:grid-cols-4 md:gap-1 grid grid-cols-2 gap-2">
@@ -56,7 +56,7 @@ function App(params) {
                 </div>
               </div>
               <div className="md:flex md:flex-row md:items-center md:m-2 md:h-2/6 flex flex-col items-center my-7">
-                <p className="md:text-black md:hover:bg-lime-200 md:mr-3 md:p-3 md:shadow-xl md:shadow-black md:bg-slate-200 md:h-full md:flex md:items-center md:rounded-r-xl md:w-28 text-xl font-bold italic text-black mb-2 font-pt md:hover:scale-105 place-content-center md:bg-opacity-70">
+                <p className="md:text-black md:hover:bg-lime-200 md:mr-3 md:p-3 md:shadow-xl md:shadow-black md:bg-slate-200 md:h-full md:flex md:items-center md:rounded-r-xl md:w-28 text-xl font-bold italic text-black mb-2 font-pt md:hover:scale-105 place-content-center md:bg-opacity-30">
                   Backend
                 </p>
                 <div className="md:grid md:grid-cols-4 md:gap-1 grid grid-cols-2 gap-2">
@@ -64,7 +64,7 @@ function App(params) {
                 </div>
               </div>
               <div className="md:flex md:flex-row md:items-center md:m-2 md:h-2/6 flex flex-col items-center my-7">
-                <p className="md:text-black md:hover:bg-lime-200 md:mr-3 md:p-3 md:shadow-xl md:shadow-black md:bg-slate-200 md:h-full md:flex md:items-center md:rounded-r-xl md:w-28 text-xl font-bold italic text-black mb-2 font-pt md:hover:scale-105 place-content-center md:bg-opacity-70">
+                <p className="md:text-black md:hover:bg-lime-200 md:mr-3 md:p-3 md:shadow-xl md:shadow-black md:bg-slate-200 md:h-full md:flex md:items-center md:rounded-r-xl md:w-28 text-xl font-bold italic text-black mb-2 font-pt md:hover:scale-105 place-content-center md:bg-opacity-30">
                   Cloud
                 </p>
                 <div className="md:grid md:grid-cols-4 md:gap-1 grid grid-cols-2 gap-2">

@@ -7,7 +7,8 @@ module.exports = {
         pt: ["PT Serif", "serif"],
       },
       backgroundImage: {
-        hom: "url('bgglass.jpg')",
+        "crystal-bg": "url('bgglass.jpg')",
+        "lime-bg": "url('bglight.jpg')",
       },
     },
   },
